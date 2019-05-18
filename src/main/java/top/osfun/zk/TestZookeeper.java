@@ -1,4 +1,4 @@
-package top.osfun;
+package top.osfun.zk;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class TestZookeeper {
 
-    private String connectString = "120.79.28.176:2182,120.79.28.176:2183";
+    private String connectString = "120.79.28.176:2181,120.79.28.176:2182,120.79.28.176:2183";
 
     private int sessionTimeout = 2000;
 
